@@ -186,19 +186,15 @@ body {
   .container .slide-text {
     width: 300px;
   }
-}
-@media (min-width: 768px) and (max-width: 1400px) {
   #home {
-    gap: 80px;
+    flex-wrap: wrap;
   }
-  #home .homediv {
-    width: 800px;
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  #home {
+    flex-wrap: wrap;
   }
-
-  #home .hometextdiv {
-    position: relative;
-    width: 865px;
-  }
+  
   #filmsubmission .youtubediv {
     overflow: hidden;
     width: 90%;
@@ -213,8 +209,9 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
   align-items: center;
+  gap: 10px;
   background-color: rgb(0, 0, 0);
   overflow: hidden;
 }
@@ -273,7 +270,7 @@ body {
 
 .hometextdiv {
   /* min-height: 50vh; */
-  width: 850px;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: space-between;
