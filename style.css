@@ -61,6 +61,7 @@ body {
   gap: 60px;
   /* margin-top: 20px; */
   padding: 0 100px;
+  /* background-color: red; */
 }
 
 .nav-item a {
@@ -117,7 +118,7 @@ body {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 70px;
+    top: 50px;
     gap: 0;
     flex-direction: column;
     background-color: #000;
@@ -148,16 +149,16 @@ body {
   }
 
   section .homediv .borderdiv h1 {
-    font-size: 2.5vh;
+    font-size: 2.2vh;
+    text-align: center;
   }
-  section .hometextdiv h1 {
-    font-size: 2.4vw;
+  section .hometextdiv h1{
+    font-size: 1.8vw;
   }
-  section .hometextdiv h4,
-  #facilities h5 {
-    font-size: 2.8vh;
+  
+  section .homediv {
+    height: 50vh;
   }
-
   #filmsubmission .youtubediv {
     overflow: hidden;
     width: 90%;
@@ -167,39 +168,56 @@ body {
     display: none;
   }
   section #facilities .photodiv .image {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
   }
 
   section #facilities .photodiv {
     width: 80vw;
-    /* background-color: blue; */
+  }
+  section 
+  #facilities h1 {
+    margin: 1vh 0;
+    font-size: 2.5vh;
   }
   .photocontainer .gallery .dream{
     width: 100%;
       display: flex;
       flex-direction: column;
     }
-  footer h5{
-    font-size: 5rem;
+  #main footer h5, #main footer i{
+    font-size: 1.2vh;
   }
   .container .slide-text {
-    width: 300px;
+    width: 550px;
   }
-  #home {
+  section #home,#filmsubmission {
     flex-wrap: wrap;
+  }
+  section .hometextdiv h4, section .photocontainer h4, section #facilities h4 {
+    /* text-align: justify; */
+    font-size: 2.5vh;
+  }
+  #main section .borderdiv{
+    padding: 10px;
   }
 }
 @media (min-width: 768px) and (max-width: 900px) {
-  #home {
+  section #home,#filmsubmission {
     flex-wrap: wrap;
   }
-  
+  /* section .hometextdiv {
+    width: 600px;
+  } */
   #filmsubmission .youtubediv {
     overflow: hidden;
     width: 90%;
   }
+  .hometextdiv h4,.photocontainer h4 {
+    text-align: justify;
+  }
 }
+
 
 /* Home Page Starts Here */
 
@@ -270,12 +288,13 @@ body {
 
 .hometextdiv {
   /* min-height: 50vh; */
-  width: 650px;
+  width: 720px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   /* background-color: red; */
+  padding: 10px;
 }
 .hometextdiv h1,.photocontainer h1 {
   font-size: 2.5vh;
@@ -292,7 +311,14 @@ body {
   font-size: 2.8vh;
   color: #fff;
   font-family: "Palatino Linotype";
-  font-weight: 200;
+  font-weight: 300;
+  text-align: center;
+}
+#facilities h4 {
+  font-size: 2.8vh;
+  color: #030303;
+  font-family: "Palatino Linotype";
+  font-weight: 300;
   text-align: center;
 }
 .hometextdiv button {
@@ -337,7 +363,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   background-color: rgb(255, 255, 255);
 }
 
@@ -377,35 +403,31 @@ iframe {
   text-align: center;
   flex-direction: column;
   overflow: hidden;
+
 }
 
 #facilities h1 {
-  color: #ffffff;
-  font-size: 3.5vh;
-  padding: 1vh 4vh;
-  background-color: #000;
-  font-family: "Palatino Linotype";
-  border-radius: 5px;
-  text-align: center;
+  margin: 1vh 0;
+  font-size: 4vh;
+  letter-spacing: 0.5vh;
+  font-family: "Ethereal Thin";
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid #ff9d00;
+  padding: 0 1vh;
 }
-#facilities h5 {
-  font-size: 3.5vh;
-  font-family: "Palatino Linotype";
-  font-weight: 200;
-  text-align: center;
-}
+
 #facilities span {
   color: #f7b605;
 }
 .slider_container {
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5vh;
   overflow: hidden;
-  background-color: p;
+  /* background-color: purple; */
 }
 
 .swiper {
@@ -454,10 +476,8 @@ iframe {
   overflow: hidden;
 }
 .photodiv .image {
-  height: 150px;
-  min-height: 80px;
-  width: 150px;
-  min-width: 80px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   overflow: hidden;
   background-color: rgb(0, 0, 0);
@@ -494,9 +514,10 @@ iframe {
   color: #000000;
 }
 .photodiv h3 {
-  font-size: 2.8vh;
+  font-size: 2.5vh;
   font-family: "Palatino Linotype";
   color: #000000;
+  font-weight: 300;
 }
 .yellowtxt {
   color: #f7b605;
@@ -642,7 +663,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   font-family: "Palatino Linotype";
-  padding: 2vh 3vw;
+  padding: 2vh 1vw;
 }
 footer i {
   font-size: 2.2vh;
@@ -752,7 +773,7 @@ section #events {
 
 .container {
   min-height: 40vh;
-  margin: auto;
+  margin-top: 2vh;
   position: relative;
   width: 100%;
   display: flex;
@@ -760,7 +781,8 @@ section #events {
   font-family: "Palatino Linotype";
   overflow: hidden;
   transition: 0.5s all;
-
+  background-color: #000;
+  color: #fff;
 }
 
 .slide-container {
@@ -810,8 +832,6 @@ section #events {
   /* animation-play-state: paused; */
   /* animation-name: none; */
   cursor: pointer;
-  background-color: rgb(0, 0, 0);
-  color: #ffffff;
 }
 
 .slide-text h1:hover{
