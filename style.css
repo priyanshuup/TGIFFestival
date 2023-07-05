@@ -35,23 +35,42 @@ body {
 }
 @font-face {
   font-family: 'Ethereal Thin';
-  src: url('ethereal.thin.woff2')  format('woff2'),
-    url('ethereal.thin.woff')  format('woff'),;
+  src: url('ethereal.thin.woff')  format('woff'),
+    url('ethereal.thin.woff')  format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Bulgatry";
-  src: url('bulgatry.personal-use.woff2')  format('woff2'),
-    url('bulgatry.personal-use.woff')  format('woff'),;
+  src: url('bulgatry.personal-use.woff')  format('woff'),
+    url('bulgatry.personal-use.woff')  format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Palatino Linotype";
-  src: url('PalatinoLinotype.woff2')  format('woff2'),,
-    url('PalatinoLinotype.woff')  format('woff'),;
+  src: url('PalatinoLinotype.woff')  format('woff'),
+    url('PalatinoLinotype.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Ethereal Thin';
+  src: url('../fonts/ethereal.thin.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bulgatry";
+  src: url('../fonts/bulgatry.personal-use.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url('../fonts/PalatinoLinotype.woff')  format('woff');
   font-weight: normal;
   font-style: normal;
 }
