@@ -336,23 +336,23 @@ body {
 }
 @font-face {
   font-family: "Ethereal Thin";
-  src: url("../TGIFFestival/ethereal.thin.ttf") format("truetype"),
-    url("../TGIFFestival/ethereal.thin.ttf") format("truetype"),;
+  src: url("ethereal.thin.woff")  format("woff"),
+    url("ethereal.thin.woff")  format("woff"),;
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Bulgatry";
-  src: url("../TGIFFestival/bulgatry.personal-use.ttf") format("truetype"),,
-    url("../TGIFFestival/bulgatry.personal-use.ttf")  format("truetype"),;
+  src: url("bulgatry.personal-use.woff")  format("woff"),
+    url("bulgatry.personal-use.woff")  format("woff"),;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Palatino Linotype";
-  src: url("../TGIFFestival/PalatinoLinotype.ttf") format("truetype"),,
-    url("../TGIFFestival/PalatinoLinotype.ttf") format("truetype"),;
+  src: url("PalatinoLinotype.woff")  format("woff"),,
+    url("PalatinoLinotype.woff")  format("woff"),;
   font-weight: normal;
   font-style: normal;
 }
