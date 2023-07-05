@@ -336,23 +336,23 @@ body {
 }
 @font-face {
   font-family: "Ethereal Thin";
-  src: url("ethereal.thin.otf") format("otf"),
-    url("ethereal.thin.otf") format("otf");
+  src: url("ethereal.thin.ttf")  format("truetype"),
+    url("ethereal.thin.ttf")  format("truetype"),;
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Bulgatry";
-  src: url("bulgatry.personal-use.otf") format("otf"),
-    url("bulgatry.personal-use.otf") format("otf");
+  src: url("bulgatry.personal-use.ttf")  format("truetype"),,
+    url("bulgatry.personal-use.ttf")  format("truetype"),;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Palatino Linotype";
-  src: url("PalatinoLinotype.ttf") format("ttf"),
-    url("PalatinoLinotype.ttf") format("ttf");
+  src: url("PalatinoLinotype.ttf")  format("truetype"),,
+    url("PalatinoLinotype.ttf")  format("truetype"),;
   font-weight: normal;
   font-style: normal;
 }
