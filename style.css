@@ -33,7 +33,28 @@ body {
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
+@font-face {
+  font-family: 'Ethereal Thin';
+  src: url('ethereal.thin.woff')  format('woff'),
+    url('ethereal.thin.woff')  format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bulgatry";
+  src: url('bulgatry.personal-use.woff')  format('woff'),
+    url('bulgatry.personal-use.woff')  format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url('PalatinoLinotype.woff')  format('woff'),,
+    url('PalatinoLinotype.woff')  format('woff'),;
+  font-weight: normal;
+  font-style: normal;
+}
 /* navbar stars  */
 
 .navbar {
@@ -334,28 +355,7 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-@font-face {
-  font-family: "Ethereal Thin";
-  src: url("ethereal.thin.woff2")  format("woff2"),
-    url("ethereal.thin.woff")  format("woff"),;
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bulgatry";
-  src: url("bulgatry.personal-use.woff2")  format("woff2"),
-    url("bulgatry.personal-use.woff")  format("woff"),;
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "Palatino Linotype";
-  src: url("PalatinoLinotype.woff2")  format("woff2"),,
-    url("PalatinoLinotype.woff")  format("woff"),;
-  font-weight: normal;
-  font-style: normal;
-}
 
 #filmsubmission {
   padding: 2vh 0;
