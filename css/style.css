@@ -57,7 +57,7 @@ body {
 }
 @font-face {
   font-family: 'Ethereal Thin';
-  src: url('../fonts/bulgatry.personal-use.woff')  format('woff');
+  src: url('../fonts/ethereal.thin.woff')  format('woff');
   font-weight: normal;
   font-style: normal;
 }
